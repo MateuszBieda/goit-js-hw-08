@@ -5,7 +5,7 @@ import throttle from 'lodash.throttle';
 const iframe = document.querySelector('#vimeo-player');
 const player = new Player(iframe);
 
-const STORAGE_TIME_KEY = 'git ';
+const STORAGE_TIME_KEY = 'videoplayer-current-time';
 
 
 

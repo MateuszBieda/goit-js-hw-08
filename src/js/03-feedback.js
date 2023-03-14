@@ -4,7 +4,7 @@ const form = document.querySelector('.feedback-form');
 const input = document.querySelector('input');
 
 
-const FORM_KEY = "goit-example-message";
+const FORM_KEY = "feedback-form-state";
 
 form.addEventListener('input', throttle(InputData, 500));
 form.addEventListener('submit', formSubmit);
